@@ -1,0 +1,14 @@
+canvas {
+    background: green;
+}
+
+.bola {
+    background: white;
+    width: 14px;
+    height: 14px;
+    border-radius: 1000px;
+    margin-top: -100px;
+    position: relative;
+    transform: animate 15s initial infinite;
+}
+
