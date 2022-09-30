@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.tombol1 {
+    border: none;
+    background-color: dodgerblue;
+    height: 40px;
+    border-radius: 5px;
+    margin-top: 100px;
+    margin-left: 100px;
+    color: white;
+    font-weight: 500;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.tombol2 {
+    border: none;
+    background-color: red;
+    height: 40px;
+    border-radius: 5px;
+    margin-top: 100px;
+    margin-left: 10px;
+    color: white;
+    font-weight: 500;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.tombol3 {
+    border: none;
+    background-color: yellow;
+    height: 40px;
+    border-radius: 5px;
+    margin-top: 100px;
+    margin-left: 10px;
+    color: black;
+    font-weight: 500;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.waktu {
+    width: 200px;
+    height: 50px;
+}
+
+.garis {
+    border: 2px solid #000;
+}
