@@ -1,0 +1,117 @@
+body {
+    background-color: #2C2B46 !important;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.logo img {
+    display: block;
+    margin: auto;
+    width: 400px;
+    margin-top: 20px !important;
+}
+
+.box1{
+    width:96%;
+    height:110%;
+    border: 1px solid #fff;
+}
+
+.box2{
+    width:70%;
+    height:150px;
+    border: 1px solid #fff;
+}
+
+.box2 h2 {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.sort-by {
+    text-align: center;
+}
+
+.sort-by label {
+    font-size: 15px;
+    color: white;
+}
+
+.sort-by select {
+    width: 150px;
+}
+
+.circle {
+    margin: 10px 20px 0px 0px;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    float: left;
+    -webkit-shape-outside: circle();
+    shape-outside: circle();
+}
+
+.circle-dis {
+    margin: 10px 20px 0px 0px;
+    width: 50px;
+    height: 50px;
+    background: grey;
+    border-radius: 50%;
+    float: left;
+    -webkit-shape-outside: circle();
+    shape-outside: circle();
+}
+
+.circle:hover{
+    background: red;
+    cursor: pointer;
+}
+
+.text h3 {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+.sort-by hr {
+    margin-top: 10px;
+    color: white;
+}
+
+.welcome h1 {
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    margin-top: 100px;
+}
+
+.pilih {
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    /* margin-top: 30px; */
+}
+
+.mulai button {
+    box-sizing: border-box;
+    width: 95px;
+    height: 40px;
+    border: 1px solid dodgerblue;
+    margin: auto;
+    border-radius: 4px;
+    font-family: Verdana,
+        Geneva, Tahoma, sans-serif;
+
+    background-color: dodgerblue;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 10px;
+}
