@@ -115,3 +115,8 @@ body {
     cursor: pointer;
     margin-top: 10px;
 }
+
+.nama-player label {
+    text-align: center;
+    color: white;
+}
